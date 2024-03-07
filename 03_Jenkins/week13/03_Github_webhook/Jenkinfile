@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define variables
-        DOCKER_IMAGE       =  '24812/custom-nginx-registry'
+        DOCKER_IMAGE       =  '24812/custom-nginx-registry:tagname'
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
 
