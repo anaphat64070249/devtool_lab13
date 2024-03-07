@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define variables
-        DOCKER_IMAGE       = '24812/dckr_pat_A4hMy7eBl0z799afHKUtPSERfmc'
+        DOCKER_IMAGE       =  '24812/dckr_pat_A4hMy7eBl0z799afHKUtPSERfmc'
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
 
