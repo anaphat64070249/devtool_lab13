@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // It's good practice to keep sensitive or specific data like Docker images, remote hosts, and credentials out of the script for security and flexibility.
-         DOCKER_IMAGE    = '24812/dsf:latest' // Ensure this Docker image name is correct and accessible.
+         DOCKER_IMAGE    = '24812/dsf:tagname' // Ensure this Docker image name is correct and accessible.
         REMOTE_HOST     = 'anapat852@34.125.154.29' // Redplace with yourasdas actuals username and remote IP.
         SSH_CREDENTIALS = 'ssh_prod_instance' // Use the ID of the Jenkins stored SSH credentials.
     }
